@@ -1,7 +1,6 @@
 {
   "name": "stats",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
@@ -14,5 +13,15 @@
   "dependencies": {
     "concurrently": "^5.0.0",
     "nodemon": "^1.19.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveen-machana/stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naveen-machana/stats/issues"
+  },
+  "homepage": "https://github.com/naveen-machana/stats#readme",
+  "description": ""
 }
