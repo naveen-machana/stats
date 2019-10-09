@@ -2,10 +2,9 @@ import { MatchReader } from './MatchReader';
 import { Summary } from './Summary';
 
 const matchReader = MatchReader.fromCsv('football.csv');
-matchReader.load();
+const summary = Summary.winsAnalysisWithHtmlReport('Southampton');
 
-const teamName = 'Southampton';
+matchReader.load();
 const matches = matchReader.matches;
-const summary = Summary.winsAnalysisWithHtmlReport(teamName);
 
 summary.buildAndPrintReport(matches);
